@@ -1,19 +1,12 @@
 "use client";
-import { useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import type { DateResult, Person, Shortlist } from "@/lib/types";
 import { rankFor } from "@/lib/rank";
+import { parseLines } from "@/lib/parse";
 
 type Tab = "profiles" | "dates" | "rankings";
 type Stage = "idle" | "profiles" | "triage" | "dating" | "done";
 const K = 4; // dates per person after triage
-
-const parseLines = (raw: string) =>
-  raw.split("\n").map((l) => l.trim()).filter(Boolean).map((l, i) => {
-    const urls = l.match(/https?:\/\/[^\s,|;]+/g) ?? [];
-    const linkedin = urls.find((u) => /linkedin\.com/i.test(u)) ?? "";
-    const instagram = urls.find((u) => /instagram\.com/i.test(u)) ?? "";
-    return { line: i + 1, linkedin, instagram };
-  });
 
 async function post<T>(url: string, body: unknown): Promise<T> {
   const r = await fetch(url, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(body) });
@@ -40,6 +33,8 @@ export default function Home() {
   const [log, setLog] = useState<string[]>([]);
   const [datePlan, setDatePlan] = useState({ total: 0 });
   const peopleRef = useRef<Person[]>([]);
+  const [health, setHealth] = useState<{ mode: string; anthropic: boolean; apify: boolean } | null>(null);
+  useEffect(() => { fetch("/api/health").then((r) => r.json()).then(setHealth).catch(() => {}); }, []);
 
   const say = (m: string) => setLog((l) => [...l.slice(-80), m]);
   const patch = (id: string, p: Partial<Person>) => {
@@ -118,6 +113,10 @@ export default function Home() {
       <div className="lbl">Orbit Dates</div>
       <h1>Your agent dates so you don't have to.</h1>
       <p className="sub">Paste a LinkedIn and a public Instagram per person. Each person gets an agent that reads them, goes on dates with every other agent, and returns a ranking of who fits best.</p>
+
+      {health?.mode === "fixture" && <div className="card err">FIXTURE MODE: all profiles, dates and scores below are synthetic test data. No model was called. Not real agent activity.</div>}
+      {health && health.mode === "live" && !health.anthropic && <div className="card err">ANTHROPIC_API_KEY is not configured on the server, so analysis and dating cannot run. Add it to .env.local (or your host's env vars) and restart.</div>}
+      {health && health.mode === "live" && health.anthropic && !health.apify && <div className="card status">APIFY_TOKEN not set: scraping falls back to public page meta tags only (thin data, profiles will be low confidence).</div>}
 
       <div className="card">
         <div className="lbl" style={{ marginTop: 0 }}>One person per line: LinkedIn URL, Instagram URL ({parsed.filter((p) => p.linkedin && p.instagram).length} valid)</div>

@@ -5,6 +5,7 @@ export const maxDuration = 60;
 
 export async function POST(req: Request) {
   const { me, others, k } = (await req.json()) as { me: Profile; others: { id: string; profile: Profile }[]; k: number };
+  if (!me?.name || !Array.isArray(others) || !others.length) return Response.json({ error: "Need a profiled person and at least one candidate" }, { status: 400 });
   try {
     const r = await askJSON<{ picks: { id: string; score: number; why: string }[] }>({
       model: ANALYZE_MODEL,

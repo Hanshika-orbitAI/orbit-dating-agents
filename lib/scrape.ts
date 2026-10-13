@@ -31,7 +31,8 @@ async function metaFallback(url: string): Promise<string> {
   const res = await fetch(url, { headers: { "user-agent": "Mozilla/5.0 (compatible; facebookexternalhit/1.1)" }, redirect: "follow" });
   const html = await res.text();
   const pick = (p: string) => html.match(new RegExp(`<meta[^>]+(?:property|name)="${p}"[^>]+content="([^"]*)"`, "i"))?.[1] ?? "";
-  return [pick("og:title"), pick("og:description"), pick("description")].filter(Boolean).join(" | ");
+  const dec = (t: string) => t.replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16))).replace(/&#(\d+);/g, (_, d) => String.fromCodePoint(+d)).replace(/&amp;/g, "&").replace(/&quot;/g, '"');
+  return dec([...new Set([pick("og:title"), pick("og:description"), pick("description")].filter(Boolean))].join(" | "));
 }
 
 export async function scrapeLinkedIn(url: string): Promise<Scraped["linkedin"]> {

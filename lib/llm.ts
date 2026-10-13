@@ -1,4 +1,6 @@
 import Anthropic from "@anthropic-ai/sdk";
+import { extractJSON } from "./json";
+import { fixtureJSON, fixtureText, isFixture } from "./fixtures";
 
 let client: Anthropic | null = null;
 const get = () => (client ??= new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY }));
@@ -13,6 +15,8 @@ export async function ask(opts: {
   maxTokens?: number;
   temperature?: number;
 }): Promise<string> {
+  if (isFixture()) return fixtureText(opts.system, opts.messages.length);
+  if (!process.env.ANTHROPIC_API_KEY) throw new Error("ANTHROPIC_API_KEY is not set (see .env.example)");
   for (let attempt = 0; ; attempt++) {
     try {
       const r = await get().messages.create({
@@ -33,14 +37,8 @@ export async function ask(opts: {
   }
 }
 
-export function extractJSON<T>(text: string): T {
-  const start = text.indexOf("{");
-  const end = text.lastIndexOf("}");
-  if (start < 0 || end < 0) throw new Error("Model returned no JSON");
-  return JSON.parse(text.slice(start, end + 1)) as T;
-}
-
 export async function askJSON<T>(opts: Parameters<typeof ask>[0]): Promise<T> {
+  if (isFixture()) return fixtureJSON(opts.system, opts.messages[opts.messages.length - 1].content) as T;
   const text = await ask(opts);
   try {
     return extractJSON<T>(text);

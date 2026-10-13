@@ -1,0 +1,602 @@
+[
+ {
+  "name": "Adam Grant",
+  "linkedin": {
+   "url": "https://www.linkedin.com/in/adammgrant/",
+   "status": "verified",
+   "http": 200,
+   "page_title": "Adam Grant - Penguin Publishing Group | LinkedIn",
+   "page_desc": "Recognized as Wharton&#39;s top-rated professor, the world&#39;s #2 most influential management… · Experience: Penguin Publishing Group · Education: Harvard Uni",
+   "checked_at": "2026-10-13T20:03:34.965Z"
+  },
+  "instagram": {
+   "url": "https://www.instagram.com/adamgrant/",
+   "status": "verified",
+   "http": 200,
+   "page_title": "Adam Grant (@adamgrant) • Instagram photos and videos",
+   "page_desc": "3M Followers, 642 Following, 2,002 Posts - See Instagram photos and videos from Adam Grant (@adamgrant)",
+   "checked_at": "2026-10-13T20:03:35.779Z"
+  },
+  "both_verified": true
+ },
+ {
+  "name": "Jay Shetty",
+  "linkedin": {
+   "url": "https://www.linkedin.com/in/shettyjay/",
+   "status": "verified",
+   "http": 200,
+   "page_title": "Jay Shetty - Juni Adaptogenic Sparkling Tea | LinkedIn",
+   "page_desc": "Jay Shetty, a global bestselling author, award-winning podcast host of On Purpose, and… · Experience: Juni Adaptogenic Sparkling Tea · Education: Cass Business ",
+   "checked_at": "2026-10-13T20:03:37.754Z"
+  },
+  "instagram": {
+   "url": "https://www.instagram.com/jayshetty/",
+   "status": "verified",
+   "http": 200,
+   "page_title": "Jay Shetty (@jayshetty) • Instagram photos and videos",
+   "page_desc": "19M Followers, 6,535 Following, 10K Posts - See Instagram photos and videos from Jay Shetty (@jayshetty)",
+   "checked_at": "2026-10-13T20:03:39.397Z"
+  },
+  "both_verified": true
+ },
+ {
+  "name": "Ankur Warikoo",
+  "linkedin": {
+   "url": "https://www.linkedin.com/in/warikoo/",
+   "status": "verified",
+   "http": 200,
+   "page_title": "Ankur Warikoo - Monzy.co | LinkedIn",
+   "page_desc": "My overarching mission is to empower people to make choices in life from a point of… · Experience: Monzy.co · Education: Indian School of Business · Location: I",
+   "checked_at": "2026-10-13T20:03:43.175Z"
+  },
+  "instagram": {
+   "url": "https://www.instagram.com/ankurwarikoo/",
+   "status": "verified",
+   "http": 200,
+   "page_title": "Ankur Warikoo (@ankurwarikoo) • Instagram photos and videos",
+   "page_desc": "4M Followers, 24 Following, 6,622 Posts - See Instagram photos and videos from Ankur Warikoo (@ankurwarikoo)",
+   "checked_at": "2026-10-13T20:03:43.785Z"
+  },
+  "both_verified": true
+ },
+ {
+  "name": "Mel Robbins",
+  "linkedin": {
+   "url": "https://www.linkedin.com/in/melrobbins/",
+   "status": "verified",
+   "http": 200,
+   "page_title": "Mel Robbins - Pure Genius Protein | LinkedIn",
+   "page_desc": "Mel Robbins is the creator and host of the award-winning The Mel Robbins Podcast, one of… · Experience: Pure Genius Protein · Location: Greater Boston · 500+ co",
+   "checked_at": "2026-10-13T20:03:46.598Z"
+  },
+  "instagram": {
+   "url": "https://www.instagram.com/melrobbins/",
+   "status": "verified",
+   "http": 200,
+   "page_title": "Mel Robbins (@melrobbins) • Instagram photos and videos",
+   "page_desc": "13M Followers, 322 Following, 9,586 Posts - See Instagram photos and videos from Mel Robbins (@melrobbins)",
+   "checked_at": "2026-10-13T20:03:47.322Z"
+  },
+  "both_verified": true
+ },
+ {
+  "name": "Simon Sinek",
+  "linkedin": {
+   "url": "https://www.linkedin.com/in/simonsinek/",
+   "status": "verified",
+   "http": 200,
+   "page_title": "Simon Sinek - The Curve | LinkedIn",
+   "page_desc": "Simon Sinek is an unshakable optimist who believes in a bright future and our ability to… · Experience: The Curve · Location: New York · 56 connections on Linke",
+   "checked_at": "2026-10-13T20:03:49.517Z"
+  },
+  "instagram": {
+   "url": "https://www.instagram.com/simonsinek/",
+   "status": "verified",
+   "http": 200,
+   "page_title": "Simon Sinek (@simonsinek) • Instagram photos and videos",
+   "page_desc": "5M Followers, 1,102 Following, 3,194 Posts - See Instagram photos and videos from Simon Sinek (@simonsinek)",
+   "checked_at": "2026-10-13T20:03:50.297Z"
+  },
+  "both_verified": true
+ },
+ {
+  "name": "Brené Brown",
+  "linkedin": {
+   "url": "https://www.linkedin.com/in/brenebrown/",
+   "status": "verified",
+   "http": 200,
+   "page_title": "Brené Brown - The University of Texas at Austin - Red McCombs School of Business | LinkedIn",
+   "page_desc": "Brené Brown is a research professor at the University of Houston, where she holds the… · Experience: The University of Texas at Austin - Red McCombs School of B",
+   "checked_at": "2026-10-13T20:03:52.604Z"
+  },
+  "instagram": {
+   "url": "https://www.instagram.com/brenebrown/",
+   "status": "verified",
+   "http": 200,
+   "page_title": "Brené Brown (@brenebrown) • Instagram photos and videos",
+   "page_desc": "5M Followers, 1,982 Following, 1,166 Posts - See Instagram photos and videos from Brené Brown (@brenebrown)",
+   "checked_at": "2026-10-13T20:03:53.247Z"
+  },
+  "both_verified": true
+ },
+ {
+  "name": "Gary Vaynerchuk",
+  "linkedin": {
+   "url": "https://www.linkedin.com/in/garyvaynerchuk/",
+   "status": "verified",
+   "http": 200,
+   "page_title": "Gary Vaynerchuk - VaynerX  | LinkedIn",
+   "page_desc": "Gary Vaynerchuk is a serial entrepreneur and serves as the Chairman of VaynerX, the CEO… · Experience: VaynerX  · Location: New York · 500+ connections on Linke",
+   "checked_at": "2026-10-13T20:03:55.404Z"
+  },
+  "instagram": {
+   "url": "https://www.instagram.com/garyvee/",
+   "status": "verified",
+   "http": 200,
+   "page_title": "Gary Vay-Ner-Chuk (@garyvee) • Instagram photos and videos",
+   "page_desc": "12M Followers, 7,807 Following, 11K Posts - See Instagram photos and videos from Gary Vay-Ner-Chuk (@garyvee)",
+   "checked_at": "2026-10-13T20:05:32.393Z"
+  },
+  "both_verified": true
+ },
+ {
+  "name": "Arianna Huffington",
+  "linkedin": {
+   "url": "https://www.linkedin.com/in/ariannahuffington/",
+   "status": "verified",
+   "http": 200,
+   "page_title": "Arianna Huffington - Thrive Global | LinkedIn",
+   "page_desc": "I’m the founder and CEO of Thrive Global, a behavior change technology company with the… · Experience: Thrive Global · Education: Cambridge University · Locatio",
+   "checked_at": "2026-10-13T20:03:58.878Z"
+  },
+  "instagram": {
+   "url": "https://www.instagram.com/ariannahuff/",
+   "status": "verified",
+   "http": 200,
+   "page_title": "Arianna Huffington (@ariannahuff) • Instagram photos and videos",
+   "page_desc": "755K Followers, 1,046 Following, 6,820 Posts - See Instagram photos and videos from Arianna Huffington (@ariannahuff)",
+   "checked_at": "2026-10-13T20:04:00.825Z"
+  },
+  "both_verified": true
+ },
+ {
+  "name": "Richard Branson",
+  "linkedin": {
+   "url": "https://www.linkedin.com/in/richardbranson/",
+   "status": "unverified",
+   "http": 999,
+   "page_title": "",
+   "page_desc": "",
+   "checked_at": "2026-10-13T20:05:32.894Z"
+  },
+  "instagram": {
+   "url": "https://www.instagram.com/richardbranson/",
+   "status": "verified",
+   "http": 200,
+   "page_title": "Richard Branson (@richardbranson) • Instagram photos and videos",
+   "page_desc": "5M Followers, 519 Following, 4,646 Posts - See Instagram photos and videos from Richard Branson (@richardbranson)",
+   "checked_at": "2026-10-13T20:04:03.578Z"
+  },
+  "both_verified": false
+ },
+ {
+  "name": "Reid Hoffman",
+  "linkedin": {
+   "url": "https://www.linkedin.com/in/reidhoffman/",
+   "status": "verified",
+   "http": 200,
+   "page_title": "Reid Hoffman - Manas AI | LinkedIn",
+   "page_desc": "My current priority is investing in and building with AI to benefit humanity.  Recently… · Experience: Manas AI · Education: Università degli Studi di Perugia ·",
+   "checked_at": "2026-10-13T20:04:06.634Z"
+  },
+  "instagram": {
+   "url": "https://www.instagram.com/reidhoffman/",
+   "status": "verified",
+   "http": 200,
+   "page_title": "Reid Hoffman (@reidhoffman) • Instagram photos and videos",
+   "page_desc": "135K Followers, 44 Following, 325 Posts - See Instagram photos and videos from Reid Hoffman (@reidhoffman)",
+   "checked_at": "2026-10-13T20:04:07.258Z"
+  },
+  "both_verified": true
+ },
+ {
+  "name": "Sara Blakely",
+  "linkedin": {
+   "url": "https://www.linkedin.com/in/sarablakely/",
+   "status": "verified",
+   "http": 200,
+   "page_title": "Sara Blakely - prAna | LinkedIn",
+   "page_desc": "Experience: prAna · Education: California State University-San Marcos - College of Business Administration · Location: San Diego Metropolitan Area · 389 connect",
+   "checked_at": "2026-10-13T20:04:09.875Z"
+  },
+  "instagram": {
+   "url": "https://www.instagram.com/sarablakely/",
+   "status": "verified",
+   "http": 200,
+   "page_title": "Sara Blakely (@sarablakely) • Instagram photos and videos",
+   "page_desc": "1M Followers, 484 Following, 1,577 Posts - See Instagram photos and videos from Sara Blakely (@sarablakely)",
+   "checked_at": "2026-10-13T20:04:10.831Z"
+  },
+  "both_verified": true
+ },
+ {
+  "name": "Daymond John",
+  "linkedin": {
+   "url": "https://www.linkedin.com/in/daymondjohn/",
+   "status": "verified",
+   "http": 200,
+   "page_title": "Daymond John - ABC Television | LinkedIn",
+   "page_desc": "From humble beginnings to a self-made multimillionaire with over $6 billion to date in… · Experience: ABC Television · Education: FUBU Foundation · Location: Ne",
+   "checked_at": "2026-10-13T20:04:13.194Z"
+  },
+  "instagram": {
+   "url": "https://www.instagram.com/thesharkdaymond/",
+   "status": "verified",
+   "http": 200,
+   "page_title": "Daymond John (@thesharkdaymond) • Instagram photos and videos",
+   "page_desc": "1M Followers, 2,660 Following, 8,427 Posts - See Instagram photos and videos from Daymond John (@thesharkdaymond)",
+   "checked_at": "2026-10-13T20:04:13.920Z"
+  },
+  "both_verified": true
+ },
+ {
+  "name": "Tim Ferriss",
+  "linkedin": {
+   "url": "https://www.linkedin.com/in/timferriss/",
+   "status": "unverified",
+   "http": 999,
+   "page_title": "",
+   "page_desc": "",
+   "checked_at": "2026-10-13T20:05:38.685Z"
+  },
+  "instagram": {
+   "url": "https://www.instagram.com/timferriss/",
+   "status": "verified",
+   "http": 200,
+   "page_title": "Tim Ferriss (@timferriss) • Instagram photos and videos",
+   "page_desc": "2M Followers, 566 Following, 2,682 Posts - See Instagram photos and videos from Tim Ferriss (@timferriss)",
+   "checked_at": "2026-10-13T20:04:15.816Z"
+  },
+  "both_verified": false
+ },
+ {
+  "name": "Nuseir Yassin",
+  "linkedin": {
+   "url": "https://www.linkedin.com/in/nyassin/",
+   "status": "unverified",
+   "http": 999,
+   "page_title": "",
+   "page_desc": "",
+   "checked_at": "2026-10-13T20:05:43.323Z"
+  },
+  "instagram": {
+   "url": "https://www.instagram.com/nasdaily/",
+   "status": "verified",
+   "http": 200,
+   "page_title": "Nas Daily (@nasdaily) • Instagram photos and videos",
+   "page_desc": "5M Followers, 1,340 Following, 1,613 Posts - See Instagram photos and videos from Nas Daily (@nasdaily)",
+   "checked_at": "2026-10-13T20:05:50.076Z"
+  },
+  "both_verified": false
+ },
+ {
+  "name": "Alex Hormozi",
+  "linkedin": {
+   "url": "https://www.linkedin.com/in/alexhormozi/",
+   "status": "unverified",
+   "http": 999,
+   "page_title": "",
+   "page_desc": "",
+   "checked_at": "2026-10-13T20:05:50.632Z"
+  },
+  "instagram": {
+   "url": "https://www.instagram.com/hormozi/",
+   "status": "verified",
+   "http": 200,
+   "page_title": "Alex Hormozi (@hormozi) • Instagram photos and videos",
+   "page_desc": "5M Followers, 624 Following, 4,509 Posts - See Instagram photos and videos from Alex Hormozi (@hormozi)",
+   "checked_at": "2026-10-13T20:04:24.214Z"
+  },
+  "both_verified": false
+ },
+ {
+  "name": "Sheryl Sandberg",
+  "linkedin": {
+   "url": "https://www.linkedin.com/in/sherylsandberg/",
+   "status": "unverified",
+   "http": 999,
+   "page_title": "",
+   "page_desc": "",
+   "checked_at": "2026-10-13T20:05:56.080Z"
+  },
+  "instagram": {
+   "url": "https://www.instagram.com/sherylsandberg/",
+   "status": "verified",
+   "http": 200,
+   "page_title": "Sheryl Sandberg (@sherylsandberg) • Instagram photos and videos",
+   "page_desc": "1M Followers, 2,091 Following, 1,620 Posts - See Instagram photos and videos from Sheryl Sandberg (@sherylsandberg)",
+   "checked_at": "2026-10-13T20:04:30.467Z"
+  },
+  "both_verified": false
+ },
+ {
+  "name": "Nikhil Kamath",
+  "linkedin": {
+   "url": "https://www.linkedin.com/in/nikhilkamathcio/",
+   "status": "unverified",
+   "http": 999,
+   "page_title": "",
+   "page_desc": "",
+   "checked_at": "2026-10-13T20:06:01.908Z"
+  },
+  "instagram": {
+   "url": "https://www.instagram.com/nikhilkamathcio/",
+   "status": "verified",
+   "http": 200,
+   "page_title": "Nikhil Kamath (@nikhilkamathcio) • Instagram photos and videos",
+   "page_desc": "2M Followers, 361 Following, 756 Posts - See Instagram photos and videos from Nikhil Kamath (@nikhilkamathcio)",
+   "checked_at": "2026-10-13T20:04:33.450Z"
+  },
+  "both_verified": false
+ },
+ {
+  "name": "Vusi Thembekwayo",
+  "linkedin": {
+   "url": "https://www.linkedin.com/in/vusithembekwayo/",
+   "status": "unverified",
+   "http": 999,
+   "page_title": "",
+   "page_desc": "",
+   "checked_at": "2026-10-13T20:06:06.463Z"
+  },
+  "instagram": {
+   "url": "https://www.instagram.com/vusithembekwayo/",
+   "status": "verified",
+   "http": 200,
+   "page_title": "Vusi Thembekwayo (@vusithembekwayo) • Instagram photos and videos",
+   "page_desc": "2M Followers, 107 Following, 1,072 Posts - See Instagram photos and videos from Vusi Thembekwayo (@vusithembekwayo)",
+   "checked_at": "2026-10-13T20:04:36.608Z"
+  },
+  "both_verified": false
+ },
+ {
+  "name": "Satya Nadella",
+  "linkedin": {
+   "url": "https://www.linkedin.com/in/satyanadella/",
+   "status": "unverified",
+   "http": 999,
+   "page_title": "",
+   "page_desc": "",
+   "checked_at": "2026-10-13T20:06:11.016Z"
+  },
+  "instagram": {
+   "url": "https://www.instagram.com/satyanadella/",
+   "status": "verified",
+   "http": 200,
+   "page_title": "Satya Nadella (@satyanadella) • Instagram photos and videos",
+   "page_desc": "6 Followers, 0 Following, 0 Posts - See Instagram photos and videos from Satya Nadella (@satyanadella)",
+   "checked_at": "2026-10-13T20:04:39.661Z"
+  },
+  "both_verified": false
+ },
+ {
+  "name": "Melinda French Gates",
+  "linkedin": {
+   "url": "https://www.linkedin.com/in/melindagates/",
+   "status": "unverified",
+   "http": 999,
+   "page_title": "",
+   "page_desc": "",
+   "checked_at": "2026-10-13T20:06:15.473Z"
+  },
+  "instagram": {
+   "url": "https://www.instagram.com/melindafrenchgates/",
+   "status": "verified",
+   "http": 200,
+   "page_title": "Melinda French Gates (@melindafrenchgates) • Instagram photos and videos",
+   "page_desc": "1M Followers, 446 Following, 1,456 Posts - See Instagram photos and videos from Melinda French Gates (@melindafrenchgates)",
+   "checked_at": "2026-10-13T20:04:41.579Z"
+  },
+  "both_verified": false
+ },
+ {
+  "name": "Marques Brownlee",
+  "linkedin": {
+   "url": "https://www.linkedin.com/in/marquesbrownlee/",
+   "status": "unverified",
+   "http": 999,
+   "page_title": "",
+   "page_desc": "",
+   "checked_at": "2026-10-13T20:06:20.058Z"
+  },
+  "instagram": {
+   "url": "https://www.instagram.com/mkbhd/",
+   "status": "verified",
+   "http": 200,
+   "page_title": "Marques Brownlee (@mkbhd) • Instagram photos and videos",
+   "page_desc": "5M Followers, 591 Following, 2,118 Posts - See Instagram photos and videos from Marques Brownlee (@mkbhd)",
+   "checked_at": "2026-10-13T20:04:44.651Z"
+  },
+  "both_verified": false
+ },
+ {
+  "name": "Neil Patel",
+  "linkedin": {
+   "url": "https://www.linkedin.com/in/neilkpatel/",
+   "status": "unverified",
+   "http": 999,
+   "page_title": "",
+   "page_desc": "",
+   "checked_at": "2026-10-13T20:06:25.788Z"
+  },
+  "instagram": {
+   "url": "https://www.instagram.com/neilpatel/",
+   "status": "verified",
+   "http": 200,
+   "page_title": "Neil Patel (@neilpatel) • Instagram photos and videos",
+   "page_desc": "678K Followers, 133 Following, 3,206 Posts - See Instagram photos and videos from Neil Patel (@neilpatel)",
+   "checked_at": "2026-10-13T20:04:46.687Z"
+  },
+  "both_verified": false
+ },
+ {
+  "name": "Kevin O'Leary",
+  "linkedin": {
+   "url": "https://www.linkedin.com/in/kevinolearytv/",
+   "status": "unverified",
+   "http": 999,
+   "page_title": "",
+   "page_desc": "",
+   "checked_at": "2026-10-13T20:06:31.458Z"
+  },
+  "instagram": {
+   "url": "https://www.instagram.com/kevinolearytv/",
+   "status": "verified",
+   "http": 200,
+   "page_title": "Kevin O'Leary (@kevinolearytv) • Instagram photos and videos",
+   "page_desc": "2M Followers, 583 Following, 5,813 Posts - See Instagram photos and videos from Kevin O'Leary (@kevinolearytv)",
+   "checked_at": "2026-10-13T20:04:51.611Z"
+  },
+  "both_verified": false
+ },
+ {
+  "name": "Lilly Singh",
+  "linkedin": {
+   "url": "https://www.linkedin.com/in/lillysingh/",
+   "status": "unverified",
+   "http": 999,
+   "page_title": "",
+   "page_desc": "",
+   "checked_at": "2026-10-13T20:06:36.032Z"
+  },
+  "instagram": {
+   "url": "https://www.instagram.com/lilly/",
+   "status": "verified",
+   "http": 200,
+   "page_title": "Lilly Singh (@lilly) • Instagram photos and videos",
+   "page_desc": "13M Followers, 2,454 Following, 5,510 Posts - See Instagram photos and videos from Lilly Singh (@lilly)",
+   "checked_at": "2026-10-13T20:04:54.097Z"
+  },
+  "both_verified": false
+ },
+ {
+  "name": "Whitney Wolfe Herd",
+  "linkedin": {
+   "url": "https://www.linkedin.com/in/whitneywolfeherd/",
+   "status": "unverified",
+   "http": 999,
+   "page_title": "",
+   "page_desc": "",
+   "checked_at": "2026-10-13T20:06:40.452Z"
+  },
+  "instagram": {
+   "url": "https://www.instagram.com/whitney/",
+   "status": "verified",
+   "http": 200,
+   "page_title": "Whitney Wolfe Herd (@whitney) • Instagram photos and videos",
+   "page_desc": "286K Followers, 2,470 Following, 29 Posts - See Instagram photos and videos from Whitney Wolfe Herd (@whitney)",
+   "checked_at": "2026-10-13T20:04:56.780Z"
+  },
+  "both_verified": false
+ },
+ {
+  "name": "Bill Gates",
+  "linkedin": {
+   "url": "https://www.linkedin.com/in/williamhgates/",
+   "status": "unverified",
+   "http": 999,
+   "page_title": "",
+   "page_desc": "",
+   "checked_at": "2026-10-13T20:06:44.994Z"
+  },
+  "instagram": {
+   "url": "https://www.instagram.com/thisisbillgates/",
+   "status": "verified",
+   "http": 200,
+   "page_title": "Bill Gates (@thisisbillgates) • Instagram photos and videos",
+   "page_desc": "12M Followers, 313 Following, 633 Posts - See Instagram photos and videos from Bill Gates (@thisisbillgates)",
+   "checked_at": "2026-10-13T20:04:59.994Z"
+  },
+  "both_verified": false
+ },
+ {
+  "name": "Sundar Pichai",
+  "linkedin": {
+   "url": "https://www.linkedin.com/in/sundarpichai/",
+   "status": "unverified",
+   "http": 999,
+   "page_title": "",
+   "page_desc": "",
+   "checked_at": "2026-10-13T20:06:49.466Z"
+  },
+  "instagram": {
+   "url": "https://www.instagram.com/sundarpichai/",
+   "status": "verified",
+   "http": 200,
+   "page_title": "Sundar Pichai (@sundarpichai) • Instagram photos and videos",
+   "page_desc": "6M Followers, 45 Following, 148 Posts - See Instagram photos and videos from Sundar Pichai (@sundarpichai)",
+   "checked_at": "2026-10-13T20:05:03.190Z"
+  },
+  "both_verified": false
+ },
+ {
+  "name": "Emma Grede",
+  "linkedin": {
+   "url": "https://www.linkedin.com/in/emmagrede/",
+   "status": "unverified",
+   "http": 999,
+   "page_title": "",
+   "page_desc": "",
+   "checked_at": "2026-10-13T20:06:54.156Z"
+  },
+  "instagram": {
+   "url": "https://www.instagram.com/emmagrede/",
+   "status": "verified",
+   "http": 200,
+   "page_title": "Emma Grede (@emmagrede) • Instagram photos and videos",
+   "page_desc": "2M Followers, 392 Following, 1,565 Posts - See Instagram photos and videos from Emma Grede (@emmagrede)",
+   "checked_at": "2026-10-13T20:05:05.546Z"
+  },
+  "both_verified": false
+ },
+ {
+  "name": "Justin Welsh",
+  "linkedin": {
+   "url": "https://www.linkedin.com/in/justinwelsh/",
+   "status": "unverified",
+   "http": 999,
+   "page_title": "",
+   "page_desc": "",
+   "checked_at": "2026-10-13T20:06:58.715Z"
+  },
+  "instagram": {
+   "url": "https://www.instagram.com/thejustinwelsh/",
+   "status": "verified",
+   "http": 200,
+   "page_title": "Justin Welsh (@thejustinwelsh) • Instagram photos and videos",
+   "page_desc": "97K Followers, 1,171 Following, 1,468 Posts - See Instagram photos and videos from Justin Welsh (@thejustinwelsh)",
+   "checked_at": "2026-10-13T20:05:07.930Z"
+  },
+  "both_verified": false
+ },
+ {
+  "name": "Codie Sanchez",
+  "linkedin": {
+   "url": "https://www.linkedin.com/in/codiesanchez/",
+   "status": "unverified",
+   "http": 999,
+   "page_title": "",
+   "page_desc": "",
+   "checked_at": "2026-10-13T20:07:04.256Z"
+  },
+  "instagram": {
+   "url": "https://www.instagram.com/codiesanchez/",
+   "status": "verified",
+   "http": 200,
+   "page_title": "Codie Sanchez (@codiesanchez) • Instagram photos and videos",
+   "page_desc": "3M Followers, 1,835 Following, 2,549 Posts - See Instagram photos and videos from Codie Sanchez (@codiesanchez)",
+   "checked_at": "2026-10-13T20:05:09.796Z"
+  },
+  "both_verified": false
+ }
+]

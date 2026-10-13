@@ -12,6 +12,17 @@ Every person is represented by an agent. The agents date each other on their beh
 
 The browser orchestrates the stages with bounded concurrency, so the site is stateless and fits serverless time limits. "Export run" saves the full result; drop it at `public/demo.json` and "Load finished demo" replays it with no API calls.
 
+## Credentials
+- `ANTHROPIC_API_KEY` - **required** for analysis, triage, dates and debriefs. The app shows a banner and API routes return a clear error without it.
+- `APIFY_TOKEN` - strongly recommended. Without it scraping falls back to public page meta tags: LinkedIn gives headline/location only and Instagram gives only follower counts, so profiles come out low-confidence. LinkedIn also rate-limits (HTTP 999) after ~10 unauthenticated fetches; we do not bypass that.
+- `LLM_MODE=fixture` - dev only, synthetic output stamped `[FIXTURE]` with a red banner in the UI.
+
+## Tests
+`npm test` (ranking maths, URL parsing, JSON extraction) and `npm run typecheck`.
+
+## People dataset
+`scripts/candidates.json` -> `node scripts/verify-people.mjs` -> `data/people.json`. A link is `verified` only when the platform's own public page returns 200 and its title/description identifies the person (aliases are explicit in candidates.json). Instagram must also show a follower count (i.e. is public). Nothing is guessed into "verified".
+
 ## Run
 ```
 cp .env.example .env.local   # ANTHROPIC_API_KEY, APIFY_TOKEN
